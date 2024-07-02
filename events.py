@@ -35,5 +35,20 @@ print(new_dict)
 # print(dates)
 # print(names)
 
+# Instructor solution once get two lists
+# Tried something similar but date still wasn't formatted correctly
+"""
+event_times = [list of event times]
+event_names = [list of event names]
+events = {}
+
+for n in range(len(event_times)):
+    events[n] = {
+        "time": event_times[n].text,
+        "name": event_names[n].text,
+        }
+
+"""
+
 
 driver.quit()
